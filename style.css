@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.almighty  .heading{
+    width: 550px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 24rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: dodgerblue;
+    box-shadow: 0 0 15px;
+    
+}
+
+.general {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.general .goal {
+    display: flex;
+    margin-left: -7rem;
+}
+
+.general .goal h1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor h3 {
+    font-weight: bold;
+    color: dodgerblue;
+    
+}
+
+.sponsor img {
+    width: 120px;
+    height: 100px;
+
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 10px 0px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
